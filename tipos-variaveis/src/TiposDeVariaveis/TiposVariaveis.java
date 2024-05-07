@@ -1,3 +1,4 @@
+package TiposDeVariaveis;
 
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
@@ -9,9 +10,12 @@ public class TiposVariaveis {
             String nome = "Jefferson De Souza Ramos ";
             System.out.println(nome);
 
+
+            @SuppressWarnings("unused")
             double salarioMinimo = 2.55;
             short numeroCurto =1;
             int numeroNormal = numeroCurto;
+            @SuppressWarnings("unused")
             short numeroCurto2 = (short) numeroNormal;
 
             int numero = 5;

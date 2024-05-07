@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "TiposVariaveis",
+      "request": "launch",
+      "mainClass": "TiposDeVariaveis.TiposVariaveis",
+      "projectName": "tipos-variaveis_5998c476"
+    },
+    {
+      "type": "java",
+      "name": "Operadores",
+      "request": "launch",
+      "mainClass": "Operadores",
+      "projectName": "tipos-variaveis_5998c476"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
