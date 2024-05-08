@@ -1,4 +1,4 @@
-package Metodos;
+/*package Metodos;
 
 public class Metodos {
     public double somar(int num1, int num2){
@@ -39,6 +39,6 @@ public void gravarCliente(Cliente cliente){}
 //ou
 public void gravar(Cliente cliente){}
 } 
-
+*/
     
 
