@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCepExemplo",
+            "request": "launch",
+            "mainClass": "FormatadorCepExemplo",
+            "projectName": "terminal-e-Argumentos_ff344886"
+        },
+        {
+            "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "ExemploExcecao",
+            "projectName": "terminal-e-Argumentos_ff344886"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,10 +29,6 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-           /* "args": ["JEFFERSON",
-                    "RAMOS",
-                    "38",
-                    "1.61"],*/
             "projectName": "terminal-e-Argumentos_ff344886"
         },
         {

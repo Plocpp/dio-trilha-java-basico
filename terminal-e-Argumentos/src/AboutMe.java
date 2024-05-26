@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,6 +12,7 @@ public class AboutMe {
             int idade = Integer.valueOf(args[2]);//vamos falar sobre Wrappers
             double altura = Double.valueOf(args [3]);
 */
+            try{
             System.out.println("Digite seu Nome :");
             String nome  = scanner.next();
 
@@ -27,6 +29,9 @@ public class AboutMe {
             System.out.println("Olá me chamo "+nome+" "+sobreNome);
             System.out.println("Tenho "+ idade +" anos");
             System.out.println("Minha altura é "+ altura +" cm");
+            }catch(InputMismatchException e){
+                System.err.println("Os campos idade e altura devem ser numericos");
+            }
         }
 
     }
